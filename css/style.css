@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+  width: 100%
+}
+body {
+  background-image: url("/images/opaque_santa_village.png.jpeg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+h1 {
+  color: red;
+}
+p[draggable="false"]{
+  color: red;
+}
+p[draggable="true"]{
+  color: blue;
+}
+#test {
+  color: green;
+}
+.test2 {
+  color: orange;
+}
+
+
