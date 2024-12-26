@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Twinkle Lights Demo';
+  src: url('/fonts/Twinkle\ Lights\ Demo.ttf') 
+  }
+@font-face {
+  font-family:'MerryChristmasFlake' ;
+  src: url('/fonts/MerryChristmasFlake.ttf');
+}
 html {
   height: 100%;
   width: 100%
@@ -7,20 +15,32 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
-h1 {
+h1 { /* will apply to all h1 headers*/
   color: red;
+  background-color: green;
+  text-align: center;
+  font-family: MerryChristmasFlake;
 }
-p[draggable="false"]{
+p[draggable="false"]{ /* only applies to paragraph with draggable set to false*/
   color: red;
+  font-size: 20px;
+  /*font size in em is a multiple of immediate parent tag, ie 2em is 2x the size of parent tag
+  rem is like em but takes its multipler from the room tag, ie html tag. rem is a more consistent way to match font across a website*/
 }
-p[draggable="true"]{
+p[draggable="true"]{ /* only applies to paragraph with draggable set to true*/
   color: blue;
+  font-size: 20px;
 }
-#test {
+#test { /*# means id of an element, have to specify the id in the tag*/
   color: green;
+  font-size: 15pt;
+  font-family: system-ui;
+  font-weight: 700;
+  font-style: oblique;
 }
-.test2 {
+.test2 { /*# means class of an element, have to specify the class in the tag*/
   color: orange;
+  font-size: 100px;
 }
 
 
