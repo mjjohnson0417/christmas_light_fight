@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+    width: 100%
+}
+body {
+    background-image: url("/images/opaque_santa_village.png.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+@media (max-width: 500px) { /* can combine min and max using and keyword*/
+    body {
+        background-image: url("/images/christmas_light1.jpeg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+h1 {
+    color: red;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
+li {
+    color: green;
+}
+.img {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.footer {
+    clear: left;
+}
+.block {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.inline {
+    display: inline;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+.inlineblock {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+

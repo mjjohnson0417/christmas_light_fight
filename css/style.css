@@ -1,7 +1,3 @@
-html {
-    height: 100%;
-    width: 100%
-}
 body {
     background-image: url("/images/opaque_santa_village.png.jpeg");
     background-size: 100% 100%;
@@ -12,6 +8,61 @@ h1 {
     text-align: center;
     font-family: "Sofia", sans-serif;
 }
+img {
+   width: 200px; 
+   height: 200px;
+   padding: 5px;
+}
+p {
+    text-align: center;
+}
 li {
     color: green;
+    list-style: none;
 }
+.block {
+    display: block;
+
+}
+.container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.footer {
+    clear: left;
+}
+.inline {
+    display: inline;
+}
+.inlineblock {
+    display: inline-block;
+}
+.votebox {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+@media (max-width: 500px) {
+    body {
+        background-image: url("/images/christmas_light4.jpeg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    h2 {
+        color: red;
+    }
+    p {
+        color: red;
+        font-size: 10px;
+        text-align: center;
+    }
+    img {
+        width: 100px;
+        height:100px;
+        padding: 5px;
+    }
+}
+
