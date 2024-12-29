@@ -1,12 +1,18 @@
+   
 body {
-    background-image: url("/images/opaque_santa_village.png.jpeg");
+    background-image: url("/images/saiyan_santa_faded.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 h1 {
-    color: red;
     text-align: center;
-    font-family: "Sofia", sans-serif;
+    font-family: "santasairmail";
+    font-size: 30px;
+}
+h2 {
+    text-align: center;
+    font-family: "santasairmail";
+    font-size: 20px;
 }
 img {
    width: 200px; 
@@ -15,6 +21,9 @@ img {
 }
 p {
     text-align: center;
+    font-family: "wonderfulchristmas";
+    font-size: 20px;
+    font-weight: bold;
 }
 li {
     color: green;
@@ -45,19 +54,88 @@ li {
     flex-direction: row;
     justify-content: center;
 }
+
+@font-face {
+    font-family: 'TwinkleLightsDemo';
+    src: url('/fonts/Twinkle\ Lights\ Demo.ttf') 
+    }
+@font-face {
+    font-family:'MerryChristmasFlake' ;
+    src: url('/fonts/MerryChristmasFlake.ttf'); 
+}
+@font-face {
+    font-family:'MerryChristmasStar' ;
+    src: url('/fonts/MerryChristmasStar.ttf');
+}
+@font-face {
+    font-family: 'LastChristmas';
+    src: url('/fonts/LastChristmas_PERSONAL_USE_ONLY.otf');
+}
+@font-face {
+    font-family: 'LastChristmasSymbols';
+    src: url('/fonts/LastChristmasSymbols_PERSONAL_USE_ONLY.otf');
+}
+@font-face {
+    font-family: 'SantasAirMail';
+    src: url('/fonts/Santa\'s\ Air\ Mail.ttf');
+}
+@font-face {
+    font-family: 'SilverChristmas';
+    src: url('/fonts/Silver\ Christmas\ -\ Personal\ Use.otf');
+}
+@font-face {
+    font-family: 'WonderfulChristmas';
+    src: url('/fonts/WonderfulChristmas_PERSONAL_USE_ONLY.otf');
+}
+@font-face {
+    font-family: 'WonderfulChristmasSymbols';
+    src: url('/fonts/WonderfulChristmasSymbols_PERSONAL_USE_ONLY.otf');
+}
+.twinklelightsdemo {
+    font-family: TwinkleLightsDemo;
+}
+.merrychristmasflake {
+    font-family: MerryChristmasFlake;
+}
+.merrychristmasstar {
+    font-family: MerryChristmasStar;
+}
+.lastchristmas {
+    font-family: LastChristmas;
+}
+.lastchristmassymbols {
+    font-family: LastChristmasSymbols;
+}
+.santasairmail {
+    font-family: SantasAirMail;
+}
+.silverchristmas {
+    font-family: SilverChristmas;
+}
+.wonderfulchristmas {
+    font-family: WonderfulChristmas;
+}
+.wonderfulchristmassymbols {
+    font-family: WonderfulChristmasSymbols;
+}
 @media (max-width: 500px) {
     body {
-        background-image: url("/images/christmas_light4.jpeg");
+        background-image: url("/images/darth_santa_faded.png");
         background-size: 100% 100%;
-        background-repeat: no-repeat;
+        background-repeat:inherit
     }
-    h2 {
+    h1, h2 {
         color: red;
+        font-size: 5px;
+        font-family: "santasairmail";
+        font-size: 20px;
     }
     p {
         color: red;
-        font-size: 10px;
+        font-size: 13px;
+        font-weight: bold;
         text-align: center;
+        font-family: "wonderfulchristmas";
     }
     img {
         width: 100px;
