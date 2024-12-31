@@ -1,0 +1,9 @@
+#no such thing as a copy for docker compose
+#have to used named volumes and mount them
+#when you need to edit files and see the changes in the browser without rebuilding #the container use this option. Assume a database will use a mounted volume so that #data persists after the container stops
+services:
+  httpd:
+    image: httpd:latest
+    ports:
+      - 8081:80
+    

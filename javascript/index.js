@@ -1,1 +1,1 @@
-alert("index.js is being read")
+//alert("index.js is being read")

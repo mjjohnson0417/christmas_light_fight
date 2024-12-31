@@ -10,5 +10,5 @@ COPY javascript/ /usr/local/apache2/htdocs/javascript/
 #docker build -t mjjohnson0417/httpd:latest .
 #docker run -d --name myapache2 -p 8081:80 mjjohnson0417/httpd
 #docker exec -it myapache2 sh
-#docker run --rm httpd:2.4 cat /usr/local/apache2/conf/httpd.conf > my_httpd_config.conf
 #docker run --rm httpd:latest cat /usr/local/apache2/conf/httpd.conf > my_httpd_config.conf
+#this command lets you copy the httpd.conf file from inside the container using the standard #out to a file
