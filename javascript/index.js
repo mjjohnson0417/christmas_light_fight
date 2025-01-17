@@ -1,10 +1,29 @@
 /*
+- figure out how to list files in a directory 
 -refactor the code below to add images or video in a loop
 -use jquery to capture click event on all pictures
 -create a play function to play the video once a click is seen
 */
+/*$("img").click(function() {
+    console.log("you clicked am image");
+});
+*/
+
+
+
 imageList = document.querySelectorAll("img");
-console.log(imageList);
+/*
+function below attaches an event listener to the correct element, need to flesh it out to run when the page is loaded. Do I need to create an object like python?
+*/
+function printStuff() {
+    for (let i = 0; i < imageList.length; i++) {
+        //console.log(imageList[i]);
+        $(imageList[i]).click(function() {
+            console.log("you clicked image "+ imageList[i].src);
+        });
+    }
+}
+
 image1 = document.querySelectorAll("img")[0];
 image1.setAttribute("src", "./images/christmas_show_movies/charlie_brown_christmas.jpeg");
 image2 = document.querySelectorAll("img")[1];
