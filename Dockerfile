@@ -2,7 +2,7 @@ FROM httpd:latest
 
 #this section will be used for a production container. 
 #COPY my_httpd_config.conf /usr/local/apache2/conf/httpd.conf
-#COPY html/index.html /usr/local/apache2/htdocs/index.html
+#COPY index.html /usr/local/apache2/htdocs/index.html
 #COPY css/ /usr/local/apache2/htdocs/css/
 #COPY fonts/ /usr/local/apache2/htdocs/fonts/
 #COPY images/ /usr/local/apache2/htdocs/images/
